@@ -1,1 +1,303 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Anonymous Pro, serif;
+    padding: 10px;
+    background-color: #35333d;
+}
 
+/* Nav Styles */
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: #c5c7db;
+font-weight: 700;
+}
+
+nav p, nav a {
+    color: #171836;
+}
+
+nav a {
+    text-decoration: none;
+    color: #171836;
+}
+
+nav a:hover {
+    color:#5456b0;
+}
+
+
+/* Footer Styles */
+footer {
+    bottom: 0;
+    position: sticky;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: Anonymous Pro, serif;
+    font-weight: 700;
+}
+
+footer a {
+    color: #171836;
+}
+
+footer a:hover {
+    color:#5456b0;
+}
+
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash h1 {
+    font-family: Mansalva, serif;
+    font-size: 500%;
+    color:#eae6ff;
+    text-align: center;
+}
+
+.splash img {
+    max-width: 15%;
+    height: auto;
+    align-self: center;
+    border: 5px solid #000212;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0px 2px 8px 1px rgba(197, 197, 214, 1);
+}
+
+.splash p {
+    font-family: Inder, serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Horizontal Rules */
+hr {
+    border: 10px solid #1f1c2e;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 1px rgba(197, 197, 214, 1);
+}
+
+
+/* Sections */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Section Headings */
+section h2 {
+    font-family: Inder, serif;
+    color:#eae6ff;
+    align-self: flex-start;
+    font-size: 40px;
+}
+
+/* Paragraph Styles */
+section p {
+    color:#eae6ff;
+    font-size: 20px;
+}
+
+/* link styles */
+section a {
+    color:#b9cffa;
+    text-decoration: none;
+}
+section a:hover {
+    color:#cbc0f0;
+}
+
+.eduSect h2 {
+    align-self: center;
+}
+
+.eduSect p {
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ResumeList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ResumeList h2 {
+    align-self: center;
+    text-align: center;
+}
+
+/* List Styles */
+ul {
+    color:#eae6ff;
+    font-size: 20px;
+}
+
+dl {
+    color:#eae6ff;
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 10px 100px;
+    
+}
+dl dt{
+    color:#eae6ff;
+    padding: 10px;
+}
+dl dd{
+    color:#eae6ff;
+    text-align: center;
+}
+
+/* Project Section */
+
+.projects {
+    display: flex;
+}
+
+.projects h2{
+    align-self: center;
+    font-size: 40px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 20px;
+}
+
+.card {
+    background-color: #d3cfe3;
+    box-shadow: 0 4px 8px 0 rgba(197, 197, 214, 1);
+    transition: 0.3s;
+    padding: 3px;
+    border-radius: 5px;
+    color: #1f1c2e;
+}
+
+.card img {
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.card h3 {
+    justify-self: center;
+    text-align: center;
+}
+
+.card ul {
+    color:#1f1c2e;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#eae6ff;
+}
+
+.contact-splash {
+    color:#d3cfe3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-splash h1 {
+    font-family: Mansalva, serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 20px;
+    justify-self: end;
+    width: 100%;
+}
+
+form input, form textarea {
+    font-size: 20px;
+    box-shadow: 0 0px 4px 0 rgba(197, 197, 214, 1);
+    transition: 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+input[type=submit] {
+    background-color:#7172ac;
+    color:#1f1c2e;
+    font-family: Inder, serif;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color:#b9cffa;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanks h1 {
+    font-family: Mansalva, serif;
+    font-size: 500%;
+    color:#eae6ff;
+    text-align: center;
+}
+
+.thanks a {
+    color:#b9cffa;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.thanks a:hover {
+    color:#cbc0f0;
+}
+
+.inder-regular {
+    font-family: "Inder", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .anonymous-pro-regular {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .anonymous-pro-bold {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .mansalva-regular {
+    font-family: "Mansalva", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
